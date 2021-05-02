@@ -42,6 +42,8 @@ module.exports = function calcInventoryPurchasesFIFO (activities, startDate) {
       const remaining = +Big(buyShares).minus(Big(sellShares))
       purchases[j].shares = remaining
 
+
+
       // only count the realized gain if it was inside the given interval
       if (!isBefore(new Date(date), startDate)) {
         // TransferOut does not create "realized Gains"

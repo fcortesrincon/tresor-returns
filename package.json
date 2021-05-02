@@ -4,7 +4,7 @@
   "description": "Tresor One performance and chart calculations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register **/*.test.ts"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,11 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "standard": "^14.3.4"
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "standard": "^14.3.4",
+    "ts-node": "^9.1.1"
   }
 }

@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "5f8725d0d9c461002fe3b454"
+  },
+  "isin": "GB0005405286",
+  "wkn": "",
+  "type": "Sell",
+  "company": "HSBC",
+  "symbol": "",
+  "date": "2015-06-05",
+  "shares": 265,
+  "amount": 2234.82,
+  "grossAmount": 0,
+  "tax": 0,
+  "fee": 0,
+  "currency": "EUR",
+  "grossCurrency": "",
+  "exchangeRate": 0,
+  "price": 8.433283018867925,
+  "holding": "5f8725c333cdd600305394f5",
+  "portfolio": "5f87258633cdd600305394f2"
+},{
+  "_id": {
+    "$oid": "5f875c74d9c461002fe3b897"
+  },
+  "isin": "DE0007236101",
+  "wkn": "",
+  "type": "Dividend",
+  "company": "Siemens",
+  "symbol": "SIE.DE",
+  "date": "2013-01-24",
+  "shares": 31,
+  "amount": 66.97,
+  "grossAmount": 0,
+  "tax": 0,
+  "fee": 0,
+  "currency": "EUR",
+  "exchangeRate": 0,
+  "price": 2.160322580645161,
+  "holding": "5f8725ca33cdd60030539511",
+  "portfolio": "5f87258633cdd600305394f2"
+}
+]
